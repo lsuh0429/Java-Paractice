@@ -99,6 +99,7 @@ public class CrawlTest {
 		// Jsoup를 이용해서 네이버 경제 뉴스 리스트 크롤링
 		
 		//크롤링할 url, 저장위치, 이미지 파일형식 지정
+		//절대주소 -> 상대주소로 변경하는 것이 좋다.
 		CrawlTest crw = new CrawlTest("https://news.naver.com/main/list.nhn?mode=LS2D&mid=shm&sid1=101&sid2=263",
 				"C:\\Users\\lsuh0\\eclipse-workspace\\INCOPR~1\\upload\\", "jpg");
 		CrawlTest crw2;
