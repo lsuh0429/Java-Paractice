@@ -1,5 +1,5 @@
 package javaBook;
-
+//20144611 이수호
 public class Main {
 	static String id = "1";
 	static String isbn = "9788972782810";
